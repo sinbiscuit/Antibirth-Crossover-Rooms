@@ -132,10 +132,10 @@
 			<entity type="451" variant="190" subtype="1" weight="1.0"/>
 		</spawn>
 		<spawn x="5" y="1">
-			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
+			<entity type="1000" variant="0" subtype="1" weight="1.0"/>
 		</spawn>
 		<spawn x="7" y="1">
-			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
+			<entity type="1000" variant="0" subtype="1" weight="1.0"/>
 		</spawn>
 		<spawn x="11" y="1">
 			<entity type="451" variant="190" subtype="0" weight="1.0"/>
@@ -177,10 +177,10 @@
 			<entity type="451" variant="190" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="5" y="5">
-			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
+			<entity type="1000" variant="0" subtype="1" weight="1.0"/>
 		</spawn>
 		<spawn x="7" y="5">
-			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
+			<entity type="1000" variant="0" subtype="1" weight="1.0"/>
 		</spawn>
 		<spawn x="11" y="5">
 			<entity type="451" variant="190" subtype="0" weight="1.0"/>
@@ -201,7 +201,7 @@
 			<entity type="1900" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
 	</room>
-	<room variant="0" name="Millisec - Fracture - Fairly narrow corridor" type="1" subtype="0" shape="4" width="13" height="14" difficulty="15" weight="1.0">
+	<room variant="0" name="Millisec - Fracture - Fairly narrow corridor" type="1" subtype="0" shape="4" width="13" height="14" difficulty="10" weight="1.0">
 		<door exists="True" x="-1" y="3"/>
 		<door exists="False" x="-1" y="10"/>
 		<door exists="True" x="6" y="-1"/>
@@ -439,6 +439,9 @@
 		<spawn x="3" y="9">
 			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
+		<spawn x="7" y="9">
+			<entity type="57" variant="114" subtype="0" weight="1.0"/>
+		</spawn>
 		<spawn x="12" y="9">
 			<entity type="1000" variant="0" subtype="1" weight="1.0"/>
 		</spawn>
@@ -456,9 +459,6 @@
 		</spawn>
 		<spawn x="1" y="11">
 			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
-		</spawn>
-		<spawn x="7" y="11">
-			<entity type="57" variant="114" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="12" y="11">
 			<entity type="1000" variant="0" subtype="1" weight="1.0"/>
@@ -497,7 +497,7 @@
 			<entity type="1901" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
 	</room>
-	<room variant="0" name="Millisec - Fracture - Look who at the pride prade" type="1" subtype="0" shape="1" width="13" height="7" difficulty="1" weight="0.2">
+	<room variant="0" name="Millisec - Fracture - Look who at the pride prade" type="1" subtype="0" shape="1" width="13" height="7" difficulty="1" weight="0.1">
 		<door exists="True" x="-1" y="3"/>
 		<door exists="True" x="6" y="-1"/>
 		<door exists="True" x="6" y="7"/>
@@ -726,6 +726,12 @@
 		<spawn x="3" y="7">
 			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
+		<spawn x="4" y="7">
+			<entity type="200" variant="2409" subtype="0" weight="1.0"/>
+		</spawn>
+		<spawn x="7" y="7">
+			<entity type="200" variant="2409" subtype="0" weight="1.0"/>
+		</spawn>
 		<spawn x="8" y="7">
 			<entity type="1000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
@@ -773,12 +779,6 @@
 		</spawn>
 		<spawn x="1" y="9">
 			<entity type="1000" variant="0" subtype="1" weight="1.0"/>
-		</spawn>
-		<spawn x="3" y="9">
-			<entity type="200" variant="2409" subtype="0" weight="1.0"/>
-		</spawn>
-		<spawn x="8" y="9">
-			<entity type="200" variant="2409" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="10" y="9">
 			<entity type="969" variant="1" subtype="0" weight="1.0"/>
@@ -1011,7 +1011,7 @@
 		<spawn x="6" y="3">
 			<entity type="200" variant="2409" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="9" y="3">
+		<spawn x="8" y="3">
 			<entity type="451" variant="190" subtype="1" weight="1.0"/>
 		</spawn>
 		<spawn x="0" y="5">
@@ -2197,33 +2197,27 @@
 		<door exists="True" x="6" y="7"/>
 		<door exists="True" x="13" y="3"/>
 		<spawn x="0" y="0">
-			<entity type="1900" variant="0" subtype="0" weight="1.0"/>
+			<entity type="451" variant="190" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="12" y="0">
-			<entity type="1900" variant="0" subtype="0" weight="1.0"/>
-		</spawn>
-		<spawn x="1" y="1">
 			<entity type="451" variant="190" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="2" y="1">
+		<spawn x="3" y="1">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="10" y="1">
-			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
-		</spawn>
-		<spawn x="11" y="1">
-			<entity type="451" variant="190" subtype="0" weight="1.0"/>
-		</spawn>
-		<spawn x="1" y="2">
+		<spawn x="9" y="1">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="2" y="2">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="10" y="2">
+		<spawn x="3" y="2">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="11" y="2">
+		<spawn x="9" y="2">
+			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
+		</spawn>
+		<spawn x="10" y="2">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="5" y="3">
@@ -2232,35 +2226,29 @@
 		<spawn x="6" y="3">
 			<entity type="800" variant="2" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="1" y="4">
+		<spawn x="2" y="4">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="2" y="4">
+		<spawn x="3" y="4">
+			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
+		</spawn>
+		<spawn x="9" y="4">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="10" y="4">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="11" y="4">
+		<spawn x="3" y="5">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
-		<spawn x="1" y="5">
-			<entity type="451" variant="190" subtype="1" weight="1.0"/>
-		</spawn>
-		<spawn x="2" y="5">
+		<spawn x="9" y="5">
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
-		</spawn>
-		<spawn x="10" y="5">
-			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
-		</spawn>
-		<spawn x="11" y="5">
-			<entity type="451" variant="190" subtype="0" weight="1.0"/>
 		</spawn>
 		<spawn x="0" y="6">
-			<entity type="1900" variant="0" subtype="0" weight="1.0"/>
+			<entity type="451" variant="190" subtype="1" weight="1.0"/>
 		</spawn>
 		<spawn x="12" y="6">
-			<entity type="1900" variant="0" subtype="0" weight="1.0"/>
+			<entity type="451" variant="190" subtype="0" weight="1.0"/>
 		</spawn>
 	</room>
 	<room variant="0" name="Millisec - Fracture - Natural habitat" type="1" subtype="0" shape="6" width="26" height="7" difficulty="5" weight="1.0" lastTestTime="2023-03-10T15:06+00:00">
@@ -2571,7 +2559,7 @@
 			<entity type="3000" variant="0" subtype="0" weight="1.0"/>
 		</spawn>
 	</room>
-	<room variant="0" name="Millisec - Scab - Arm fell off" type="1" subtype="0" shape="1" width="13" height="7" difficulty="5" weight="0.6" lastTestTime="2023-03-10T15:14+00:00">
+	<room variant="0" name="Millisec - Scab - Arm fell off" type="1" subtype="0" shape="1" width="13" height="7" difficulty="1" weight="1.0" lastTestTime="2023-03-10T15:14+00:00">
 		<door exists="True" x="-1" y="3"/>
 		<door exists="True" x="6" y="-1"/>
 		<door exists="True" x="6" y="7"/>
